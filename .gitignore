@@ -1,0 +1,6 @@
+Scraping/data/exports/*.ndjson
+Scraping/data/csv_dup_rows/*.csv
+
+
+Scraping/data/global_posts.csv
+
