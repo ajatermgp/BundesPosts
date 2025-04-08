@@ -17,3 +17,7 @@ To ensure compatibility with our model, we mapped the sentiment labels to numeri
 ### Evaluation of fine-tuned models using gold standard
 
 To ensure that the fine-tuned models are robust and not overfitted to the training data, we used an subset of 2,000 posts of our collected data, that we have annotated ourselves ("Evaluationsdatensatz-3.xlsx), for evaluation and to determine which model is most suitable for our task. The jupyter notebook "Classification_of_evaluation_texts" contains the pipeline to assign a sentiment to each post of this subset using GBERT1 and GBERT2, the results can be seen in  "Evaluationstexte_mit_Modellergebnissen.csv". We then compared the model results with our gold standard. This evaluation process can be found in "Evaluation_with_Goldstandard.ipynb", which also contains a confusion matrix and a classification report for GBERT1 and GBERT2 respectively. Morover, this notebook contains the calculation of Krippendorffs Alpha for the Inter Annotator Agreement. 
+
+### Running the model
+
+The jupyter notebook "Model_Run" contains the run of the model with which the data was annotated. During the scraping some data was lost and had to be retrieved at a later point, which is also processed within this notebook.
