@@ -20,4 +20,4 @@ To ensure that the fine-tuned models are robust and not overfitted to the traini
 
 ### Running the model
 
-The jupyter notebook "Model_Run" contains the run of the model with which the data was annotated. During the scraping some data was lost and had to be retrieved at a later point, which is also processed within this notebook.
+The jupyter notebook "Model_Run" contains the run of the model with which the data was annotated. During the scraping some data had to be retrieved at a later point, which is also processed within this notebook.
